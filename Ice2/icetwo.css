@@ -1,0 +1,21 @@
+.banner {
+    display: block;
+    margin: auto;
+}
+.circles {
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    width: 50%;
+    border: rgb(48, 48, 48) solid 10px;
+
+}
+main {
+    background-color: gray;
+    max-width: 85%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px;
+    margin: auto;
+    text-align: center;
+}
