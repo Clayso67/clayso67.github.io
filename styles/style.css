@@ -9,8 +9,16 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 body {
     background-color: white; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#6B705C;
@@ -20,7 +28,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
-
+    padding: 35px;
 }
 
 nav a:hover {
@@ -32,11 +40,24 @@ nav a:hover {
     background-color: #6B705C;
     color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}   
 
 .book:hover, .join:hover {
     background-color: #DDBEA9;
     color: black;
+
 }
 #background {
     height: 725px;
@@ -45,127 +66,30 @@ nav a:hover {
 
 .msg {
     background-color: #6B705C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: white;
-    font-family: "AnnieUseYour Telescope";
-
+    font-family: "Annie Use your Telescope" , "Open Sans", sans-serif;
+    margin: 0;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.mountain{
+
 }
 
 footer {
     background-color: #6B705C;
-}
-
-footer h3 {
-    color:#DDBEA9;
-}
-
-footer a {
-    color:#DDBEA9;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #DDBEA9;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-    font-family: "annie use you telescope";
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: black;
-    font-family: "Annie Use Your Telescope";
-}
-
-h4 {
-    color: black;
-}
-
-.icon {
-    width: 80px
-}
-
-.logo {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
-}
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white; 
-}
-header {
-    background-color:#6B705C;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-
-.book, .join {
-    background-color: #6B705C;
-    color:black;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-#background {
-    height: 725px;
-    background-color:#DDBEA9;
-}
-
-.msg {
-    background-color: #6B705C;
-}
-
-.msg h2 {
-    color: white;
-}
-
-.msg p {
-    color: white;
-}
-
-footer {
-    background-color: #6B705C;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -193,7 +117,9 @@ footer a:hover {
 
 .home-title {
     color: black;
-    font-family: "Annie Use Your Telescope";
+    margin-top: 10px;
+    font-size: 2em;
+    font-family: "Annie Use your Telescope" , "Open Sans", sans-serif;
 }
 
 h4 {
@@ -207,849 +133,15 @@ h4 {
 .logo {
     width: 80px;
 }
-
-#hero-img {
-    width: 100%;
-}
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/v id="content">{
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white; 
-}
-header {
-    background-color:#6B705C;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-
-.book, .join {
-    background-color: #6B705C;
-    color:black;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-#background {
-    height: 725px;
-    background-color:#DDBEA9;
-}
-
-.msg {
-    background-color: #6B705C;
-}
-
-.msg h2 {
-    color: white;
-}
-
-.msg p {
-    color: white;
-}
-
-footer {
-    background-color: #6B705C;
-}
-
-footer h3 {
-    color:#DDBEA9;
-}
-
-footer a {
-    color:#DDBEA9;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #DDBEA9;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: black;
-}
-
-h4 {
-    color: black;
-}
-
-.icon {
-    width: 80px
-}
-
-.logo {
-    width: 80px;
+#logo-link{
+    padding-top: 5px;
 }
 
 #hero-img {
     width: 100%;
 }
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/ max: width 1600px;
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white; 
-}
-header {
-    background-color:#6B705C;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-
-.book, .join {
-    background-color: #6B705C;
-    color:black;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-#background {
-    height: 725px;
-    background-color:#DDBEA9;
-}
-
-.msg {
-    background-color: #6B705C;
-}
-
-.msg h2 {
-    color: white;
-}
-
-.msg p {
-    color: white;
-}
-
-footer {
-    background-color: #6B705C;
-}
-
-footer h3 {
-    color:#DDBEA9;
-}
-
-footer a {
-    color:#DDBEA9;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #DDBEA9;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: black;
-}
-
-h4 {
-    color: black;
-}
-
-.icon {
-    width: 80px
-}
-
-.logo {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
-}
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/ margin: 0 auto;
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white; 
-}
-header {
-    background-color:#6B705C;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-
-.book, .join {
-    background-color: #6B705C;
-    color:black;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-#background {
-    height: 725px;
-    background-color:#DDBEA9;
-}
-
-.msg {
-    background-color: #6B705C;
-}
-
-.msg h2 {
-    color: white;
-}
-
-.msg p {
-    color: white;
-}
-
-footer {
-    background-color: #6B705C;
-}
-
-footer h3 {
-    color:#DDBEA9;
-}
-
-footer a {
-    color:#DDBEA9;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #DDBEA9;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: black;
-}
-
-h4 {
-    color: black;
-}
-
-.icon {
-    width: 80px
-}
-
-.logo {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
-}
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white; 
-}
-header {
-    background-color:#6B705C;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-
-.book, .join {
-    background-color: #6B705C;
-    color:black;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-#background {
-    height: 725px;
-    background-color:#DDBEA9;
-}
-
-.msg {
-    background-color: #6B705C;
-}
-
-.msg h2 {
-    color: white;
-}
-
-.msg p {
-    color: white;
-}
-
-footer {
-    background-color: #6B705C;
-}
-
-footer h3 {
-    color:#DDBEA9;
-}
-
-footer a {
-    color:#DDBEA9;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #DDBEA9;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: black;
-}
-
-h4 {
-    color: black;
-}
-
-.icon {
-    width: 80px
-}
-
-.logo {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
-}
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/ <header>
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white; 
-}
-header {
-    background-color:#6B705C;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-
-.book, .join {
-    background-color: #6B705C;
-    color:black;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-#background {
-    height: 725px;
-    background-color:#DDBEA9;
-}
-
-.msg {
-    background-color: #6B705C;
-}
-
-.msg h2 {
-    color: white;
-}
-
-.msg p {
-    color: white;
-}
-
-footer {
-    background-color: #6B705C;
-}
-
-footer h3 {
-    color:#DDBEA9;
-}
-
-footer a {
-    color:#DDBEA9;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #DDBEA9;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: black;
-}
-
-h4 {
-    color: black;
-}
-
-.icon {
-    width: 80px
-}
-
-.logo {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
-}
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white; 
-}
-header {
-    background-color:#6B705C;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-
-.book, .join {
-    background-color: #6B705C;
-    color:black;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-#background {
-    height: 725px;
-    background-color:#DDBEA9;
-}
-
-.msg {
-    background-color: #6B705C;
-}
-
-.msg h2 {
-    color: white;
-}
-
-.msg p {
-    color: white;
-}
-
-footer {
-    background-color: #6B705C;
-}
-
-footer h3 {
-    color:#DDBEA9;
-}
-
-footer a {
-    color:#DDBEA9;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #DDBEA9;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: black;
-}
-
-h4 {
-    color: black;
-}
-
-.icon {
-    width: 80px
-}
-
-.logo {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
-}
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/ </footer>
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white; 
-}
-header {
-    background-color:#6B705C;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-
-.book, .join {
-    background-color: #6B705C;
-    color:black;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-#background {
-    height: 725px;
-    background-color:#DDBEA9;
-}
-
-.msg {
-    background-color: #6B705C;
-}
-
-.msg h2 {
-    color: white;
-}
-
-.msg p {
-    color: white;
-}
-
-footer {
-    background-color: #6B705C;
-}
-
-footer h3 {
-    color:#DDBEA9;
-}
-
-footer a {
-    color:#DDBEA9;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #DDBEA9;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: black;
-}
-
-h4 {
-    color: black;
-}
-
-.icon {
-    width: 80px
-}
-
-.logo {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
-}
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/iv>
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-main section {
-    text-align: center;
-}
-
-body {
-    background-color: white; 
-}
-header {
-    background-color:#6B705C;
-}
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-
-.book, .join {
-    background-color: #6B705C;
-    color:black;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #DDBEA9;
-    color: black;
-}
-#background {
-    height: 725px;
-    background-color:#DDBEA9;
-}
-
-.msg {
-    background-color: #6B705C;
-}
-
-.msg h2 {
-    color: white;
-}
-
-.msg p {
-    color: white;
-}
-
-footer {
-    background-color: #6B705C;
-}
-
-footer h3 {
-    color:#DDBEA9;
-}
-
-footer a {
-    color:#DDBEA9;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #DDBEA9;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-.home-title {
-    color: black;
-}
-
-h4 {
-    color: black;
-}
-
-.icon {
-    width: 80px
-}
-
-.logo {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
+footer .social img {
+    padding-top: 15px;
 }
 /*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
     text-align: center;
