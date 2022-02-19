@@ -4,7 +4,8 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-
+    
+}
 main section {
     text-align: center;
 }
@@ -22,6 +23,8 @@ body {
 }
 header {
     background-color:#6B705C;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a {
@@ -29,6 +32,11 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a:hover {
@@ -59,6 +67,12 @@ nav a:hover {
     color: black;
 
 }
+
+home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 #background {
     height: 725px;
     background-color:#DDBEA9;
@@ -82,10 +96,6 @@ nav a:hover {
     padding-bottom: 15px;
 }
 
-.mountain{
-
-}
-
 footer {
     background-color: #6B705C;
     padding: 25px 50px;
@@ -103,6 +113,29 @@ footer a {
 footer a:hover {
     color: #DDBEA9;
 }
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg h4 {
+    color: white;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
 #hero-msg h1 {
     text-align: center;
 }
@@ -135,6 +168,8 @@ h4 {
 }
 #logo-link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 #hero-img {
@@ -143,7 +178,3 @@ h4 {
 footer .social img {
     padding-top: 15px;
 }
-/*nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
-    text-align: center;
-}
-*/
