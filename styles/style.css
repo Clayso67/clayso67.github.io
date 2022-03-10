@@ -216,6 +216,20 @@ footer .social img {
     padding-top: 15px;
 }
 
+.river_content {
+    display: grid;
+    grid-template-columns: repeat(10) 1fr;
+}
+#salmon {
+    display: grid;
+    grid-template-columns: repeat(10) 1fr;
+
+}
+.opener_image {
+    min-width: fit-content;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
