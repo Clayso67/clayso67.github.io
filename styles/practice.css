@@ -1,0 +1,32 @@
+body, h1,h2,h3,h4,h5,h6,ul,li,p {
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ced6e5;
+}
+
+h2 {
+    font-size: 21px;
+    margin-bottom: 35px;
+    color:#2d3b55;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #5896cf;
+}
+
+main {
+    font-size: 19px;
+    display:grid;
+    grid-template-columns: 250px 460px;
+    gap:68px;
+    margin: 10px auto;
+    width:808px;
+}
+
+main ul {
+    list-style: none;
+}
+
