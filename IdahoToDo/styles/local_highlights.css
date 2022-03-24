@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display&display=swap');
+
+/* HEADER */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+nav a {
+  text-align: center;
+  color: #242333;
+  text-decoration: none;
+  padding: 15px;
+  font-family: "oswald";
+  font-size:x-large;
+  
+}
+nav a:hover {
+  color: #242333;
+  text-decoration: underline;
+}
+
+
+/* FOOTER STUFF */
+
+footer {
+  background-color: #ffffff;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer h3 {
+  color:#242333;
+  font-family: "oswald";
+}
+footer a {
+  color: #242333;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #242333;
+  text-decoration: underline;
+}
+footer .social img {
+  padding-top: 15px;
+}
+
+/* BODY STUFFF */

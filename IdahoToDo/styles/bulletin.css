@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display&display=swap');
+
+/* HEADER */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+}
+
+
+nav a {
+  text-align: center;
+  color: #242333;
+  text-decoration: none;
+  padding: 15px;
+  font-family: "oswald";
+  font-size:x-large;
+  
+}
+nav a:hover {
+  color: #242333;
+  text-decoration: underline;
+}
+
+
+/* FOOTER STUFF */
+
+footer {
+  background-color: #ffffff;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer h3 {
+  color:#242333;
+  font-family: "oswald";
+}
+footer a {
+  color: #242333;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #242333;
+  text-decoration: underline;
+}
+footer .social img {
+  padding-top: 15px;
+}
+
+/* BODY STUFFF */
+
+
+body {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-width: 15%;
+    
+}
+
+.slideshow {
+    grid-column: 1/5;
+    
+}
+
+.slideshow h1 {
+    text-align: center;
+    }
+
+.slideshowimg {
+    width: 90%;
+    height: auto;
+    
+}
+
+.intro {
+    max-width: 90%;
+   
+    grid-column: 1/5;
+    background-color: #242333;
+    color: white;
+    font-family: "oswald";
+    text-align: center;
+    font-size: medium;
+    padding: 35px;
+    border-radius: 25px;
+}
+
+.personalcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.personalcards h4 {
+    margin: 0;
+    text-align: center;
+}
+
+.personalcards .teton_dam {
+    padding: 25px;
+    flex-grow: 25%;
+    justify-content: center;
+    justify-self: stretch;
+    /* grid-column: 1/2; */
+}
+
+.personalcards .goldbug {
+    flex-grow: 25%;
+    padding: 25px;
+    justify-content: center;
+    /* grid-column: 2/3; */
+}
+
+.personalcards .goldbug .goldimg {
+    /* max-width: 100%; */
+}
+
+.personalcards .climbing {
+    flex-grow: 25%;
+    padding: 25px;
+    justify-content: center;
+    /* grid-column: 3/4; */
+}
+
+.personalcards .climbing .climbimg {
+    /* max-width: 100%; */
+}
+
+.personalcards .ski {
+    flex-grow: 25%;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    /* grid-column: 4/5; */
+}
+
+.personalcards .ski .snowboard {
+    max-width: 100%;
+}
+
+footer img {
+    max-width: 100%;
+}
