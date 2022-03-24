@@ -1,0 +1,28 @@
+body {
+   
+}
+.slideshow {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.slideshowimg {
+    width: 100%;
+    height: auto;
+}
+.h1center {
+    text-align: center;
+}
+
+#teton_dam {
+    grid-column: 1/5fr;
+}
+
+.intro {
+    grid-column: 1/5fr;
+}
+
+.personalcards {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+}
