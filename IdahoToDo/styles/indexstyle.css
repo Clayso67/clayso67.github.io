@@ -3,18 +3,26 @@
 /* HEADER */
 
 header {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+    background-color: #ffffff;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .home {
+    grid-column: 1/2;
+    text-align: right;
 }
 
 
 nav a {
-  text-align: center;
-  color: #242333;
-  text-decoration: none;
-  padding: 15px;
-  font-family: "oswald";
-  font-size:x-large;
+    max-width: 100%;
+    color: #242333;
+    text-decoration: none;
+    padding: 50px;
+    font-family: "oswald";
+    font-size:x-large;
   
 }
 nav a:hover {
@@ -27,9 +35,9 @@ nav a:hover {
 
 footer {
   background-color: #ffffff;
-  padding: 25px 50px;
+  padding: 25px 0px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 footer h3 {
@@ -53,12 +61,16 @@ footer .social img {
 
 body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-width: 15%;
+    max-width: 1400px;
+    text-align: center;
+    margin: 0 15%;
+    
     
 }
 
 .slideshow {
     grid-column: 1/5;
+    padding-bottom: 15px;
     
 }
 
@@ -67,14 +79,14 @@ body {
     }
 
 .slideshowimg {
-    width: 90%;
+    max-width: 100%;
     height: auto;
-    
+    border-radius: 15px;
 }
 
 .intro {
-    max-width: 90%;
-   
+    padding: 10px;
+    max-width: 100%;
     grid-column: 1/5;
     background-color: #242333;
     color: white;
@@ -82,60 +94,66 @@ body {
     text-align: center;
     font-size: medium;
     padding: 35px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .personalcards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 15px;
+    
+}
+.personalcards section img {
+    width: 90%;
+    height: 90%;
 }
 
 .personalcards h4 {
     margin: 0;
     text-align: center;
+    background-color: #01b0d3;
+    
 }
 
 .personalcards .teton_dam {
-    padding: 25px;
-    flex-grow: 25%;
-    justify-content: center;
-    justify-self: stretch;
-    /* grid-column: 1/2; */
+    grid-column: 1/2;
+    margin-right: 15px;
+    text-align: left;
+    }
+
+.personalcards .tetonimg {
+    border-radius: 15px;
+    
 }
 
 .personalcards .goldbug {
-    flex-grow: 25%;
-    padding: 25px;
-    justify-content: center;
-    /* grid-column: 2/3; */
+    grid-column: 2/3;
+    margin-right: 15px;
+        
 }
 
 .personalcards .goldbug .goldimg {
-    /* max-width: 100%; */
+    border-radius: 15px;
+     
 }
 
 .personalcards .climbing {
-    flex-grow: 25%;
-    padding: 25px;
-    justify-content: center;
-    /* grid-column: 3/4; */
+    grid-column: 3/4;
+    margin-right: 15px;
+    border-radius: 15px;
 }
 
 .personalcards .climbing .climbimg {
-    /* max-width: 100%; */
+    border-radius: 15px;  
 }
 
 .personalcards .ski {
-    flex-grow: 25%;
-    padding: 25px;
-    align-items: center;
-    justify-content: center;
-    /* grid-column: 4/5; */
+    grid-column: 4/5;
+    text-align: right;
 }
 
 .personalcards .ski .snowboard {
-    max-width: 100%;
+    border-radius: 15px; 
 }
 
 footer img {
