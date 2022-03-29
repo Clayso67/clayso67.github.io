@@ -5,16 +5,18 @@
 header {
     background-color: #ffffff;
     padding: 25px 0px;
+}
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 }
 
 header nav .home {
     grid-column: 1/2;
     text-align: right;
 }
-
 
 nav a {
     max-width: 100%;
@@ -28,6 +30,7 @@ nav a {
 nav a:hover {
   color: #242333;
   text-decoration: underline;
+  text-decoration-color: #EDD818;
 }
 
 
@@ -51,6 +54,7 @@ footer a {
 footer a:hover {
   color: #242333;
   text-decoration: underline;
+  text-decoration-color: #EDD818;
 }
 footer .social img {
   padding-top: 15px;
@@ -90,7 +94,7 @@ body {
     grid-column: 1/5;
     background-color: #242333;
     color: white;
-    font-family: "oswald";
+    font-family: "PlayFair";
     text-align: center;
     font-size: medium;
     padding: 35px;
@@ -100,7 +104,7 @@ body {
 .personalcards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-top: 15px;
+    padding-top: 20px;
     
 }
 .personalcards section img {
@@ -111,7 +115,7 @@ body {
 .personalcards h4 {
     margin: 0;
     text-align: center;
-    background-color: #01b0d3;
+    font-family: "Oswald";
     
 }
 

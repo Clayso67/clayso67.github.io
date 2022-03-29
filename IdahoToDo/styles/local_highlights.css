@@ -3,27 +3,35 @@
 /* HEADER */
 
 header {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
-    
-    
-    width: 100%;
+  background-color: #ffffff;
+  padding: 25px 0px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 }
 
+header nav .home {
+  grid-column: 1/2;
+  text-align: right;
+}
 
 nav a {
-    color: #242333;
-    text-decoration: none;
-    padding: 15px;
-    font-family: "oswald";
-    font-size:x-large;
-  
+  max-width: 100%;
+  color: #242333;
+  text-decoration: none;
+  padding: 50px;
+  font-family: "oswald";
+  font-size:x-large;
+
 }
 nav a:hover {
-  color: #242333;
-  text-decoration: underline;
+color: #242333;
+text-decoration: underline;
+text-decoration-color: #EDD818;
 }
-
 
 /* FOOTER STUFF */
 
@@ -45,6 +53,7 @@ footer a {
 footer a:hover {
   color: #242333;
   text-decoration: underline;
+  text-decoration-color: #EDD818;
 }
 footer .social img {
   padding-top: 15px;
@@ -53,30 +62,49 @@ footer .social img {
 /* BODY STUFFF */
 
 body {
+  max-width: 1400px;
+  text-align: center;
+  margin: 0 15%;
+  font-family: "Oswald"
+}
+.postimg {
+  border-radius: 15px;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  align-items: center;
+  margin:auto;
+  margin-left: 0;
+}
 
-}
-body img {
-    border-radius: 15px;
-}
 
 body .post0 {
-    padding: 15px, 0 15px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+  padding: 15px, 0 15px 0;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #01b0d3;
+  border-radius: 15px;
+  ;
+}
+body h3, p {
+  grid-column: 2/4;
+  text-align: center; 
 }
 
 body .post1 {
-    padding: 15px, 0 15px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-
+  padding: 15px, 0 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #01b0d3;
+  border-radius: 15px;
+  margin-top: 3%;
 }
+
 body .post2 {
-    padding: 15px, 0 15px 0;
-    background-color: #242333;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+  padding: 15px, 0 15px 0;
+  margin-top: 3%;
+  background-color: #01b0d3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  border-radius: 15px;
 }
