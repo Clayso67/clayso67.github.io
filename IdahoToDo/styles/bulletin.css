@@ -11,7 +11,6 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-}
 
 header nav .home {
     grid-column: 1/2;
@@ -69,9 +68,10 @@ body p {
 body {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1400px;
-    text-align: center;
+    text-align: left;
     margin: 0 15%;
-    font-family: "Oswald"
+    font-family: "Oswald";
+    color:#242333;
 }
 
 .slideshow {
