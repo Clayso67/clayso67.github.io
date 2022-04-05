@@ -95,9 +95,12 @@ body {
     color: white;
     font-family: "PlayFair";
     text-align: center;
-    font-size: medium;
+    font-size: 150%;
+    line-height: 1.6;
     padding: 35px;
+    font-kerning:auto;
     border-radius: 15px;
+    font-weight: 300;
 }
 
 .personalcards {
